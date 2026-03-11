@@ -172,6 +172,21 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    position: relative;
+  }
+
+  .captcha {
+    background-color: #462512;
+    color: white;
+    width: 30%;
+    padding: 13px 16px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    position: absolute;
+    bottom: 43.7%;
+    right: 0;
+    text-align: center;
+    border: 1px solid #4d2c19;
   }
 
   .consultation-form form input {
