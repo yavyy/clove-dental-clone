@@ -1,0 +1,22 @@
+[
+  {
+    "img": "../assets/story-1.png",
+    "name": "Arjun Mehta",
+    "location": "Mumbai"
+  },
+  {
+    "img": "../assets/story-2.png",
+    "name": "Kavita Sharma",
+    "location": "Bangalore"
+  },
+  {
+    "img": "../assets/story-3.png",
+    "name": "Neha Joshi",
+    "location": "Delhi"
+  },
+  {
+    "img": "../assets/story-4.png",
+    "name": "Viram Desai",
+    "location": "Chennai"
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "clinicLocations": [
+    {
+      "img": "../assets/location-1.png",
+      "location": "Delhi/NCR",
+      "clinics": 190
+    },
+    {
+      "img": "../assets/location-2.png",
+      "location": "Banglore",
+      "clinics": 110
+    },
+    {
+      "img": "../assets/location-3.png",
+      "location": "Mumbai",
+      "clinics": 40
+    },
+    {
+      "img": "../assets/location-4.png",
+      "location": "Chennai",
+      "clinics": 59
+    },
+    {
+      "img": "../assets/location-5.png",
+      "location": "Hyderabad",
+      "clinics": 76
+    },
+    {
+      "img": "../assets/location-6.png",
+      "location": "Punjab",
+      "clinics": 27
+    },
+    {
+      "img": "../assets/location-7.png",
+      "location": "Pune",
+      "clinics": 76
+    },
+    {
+      "img": "../assets/location-8.png",
+      "location": "Ahemdabad",
+      "clinics": 27
+    }
+  ],
+  "clinicImages": [
+    "../assets/clinic-1.png",
+    "../assets/clinic-2.png",
+    "../assets/clinic-3.png",
+    "../assets/clinic-4.png"
+  ]
+}

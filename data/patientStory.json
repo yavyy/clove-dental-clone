@@ -1,0 +1,32 @@
+[
+  {
+    "img": "../assets/patient-1.png",
+    "name": "Shubham",
+    "treatment": "Aligners"
+  },
+  {
+    "img": "../assets/patient-2.png",
+    "name": "Shubpreet",
+    "treatment": "RCT"
+  },
+  {
+    "img": "../assets/patient-3.png",
+    "name": "Anita",
+    "treatment": "Laser Treatment"
+  },
+  {
+    "img": "../assets/patient-4.png",
+    "name": "Aarti",
+    "treatment": "Dentures"
+  },
+  {
+    "img": "../assets/patient-5.png",
+    "name": "Aditya",
+    "treatment": "Implant"
+  },
+  {
+    "img": "../assets/patient-6.png",
+    "name": "Nikita",
+    "treatment": "Aligners"
+  }
+]

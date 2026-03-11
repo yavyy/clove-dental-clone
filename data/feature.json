@@ -1,0 +1,17 @@
+[
+  {
+    "img": "../assets/feature-1.png",
+    "name": "Uncompromised Safety",
+    "description": "10X Safety Protocols for a secure and worry-free dental experience"
+  },
+  {
+    "img": "../assets/feature-2.png",
+    "name": "Assuring Cleanliness",
+    "description": "Rigid 4-Step Sterilization process, assuring a safe a spotless clinic."
+  },
+  {
+    "img": "../assets/feature-3.png",
+    "name": "Experience AIPS",
+    "description": "Our AI- Powered Sterilization (AIPS) Monitoring system from DORI, USA Exclusively at Clove"
+  }
+]

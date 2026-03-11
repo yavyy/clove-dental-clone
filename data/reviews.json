@@ -1,0 +1,26 @@
+[
+  {
+    "img": "../assets/review.png",
+    "name": "Neha Singh",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.",
+    "stars": 5
+  },
+  {
+    "img": "../assets/review.png",
+    "name": "Neha Singh",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.",
+    "stars": 4
+  },
+  {
+    "img": "../assets/review.png",
+    "name": "Neha Singh",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.",
+    "stars": 5
+  },
+  {
+    "img": "../assets/review.png",
+    "name": "Neha Singh",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.",
+    "stars": 4
+  }
+]

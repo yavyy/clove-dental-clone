@@ -1,0 +1,16 @@
+[
+  {
+    "img": "../assets/treatment-1.png",
+    "name": "Root Canal Treatment",
+    "description": "Ideal for infected or damaged tooth",
+    "price": "₹ 19,999",
+    "types": ["Root Canal Treatment", "Split RCT", "Split RCT with rubber dam", "Split RCT with laser"]
+  },
+  {
+    "img": "../assets/treatment-2.png",
+    "name": "Re-Root Canal Treatment",
+    "description": "Ideal issues that persist or recur after an initial root canal treatment",
+    "price": "₹ 19,999",
+    "types": ["Re-RCT with rubber dam", "Re-RCT laser specialist", "e-RCT with retrieval of old RCT filling"]
+  }
+]

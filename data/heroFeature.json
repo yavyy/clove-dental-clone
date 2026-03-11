@@ -1,0 +1,27 @@
+[
+  {
+    "img": "../assets/hero-feature-1.png",
+    "stats": "600",
+    "name": "Clinics"
+  },
+  {
+    "img": "../assets/hero-feature-2.png",
+    "stats": "1300",
+    "name": "Dentists"
+  },
+  {
+    "img": "../assets/hero-feature-3.png",
+    "stats": "30L",
+    "name": "Happy Patients"
+  },
+  {
+    "img": "../assets/hero-feature-4.png",
+    "stats": "35K",
+    "name": "Ortho Cases"
+  },
+  {
+    "img": "../assets/hero-feature-5.png",
+    "stats": "55K",
+    "name": "Implants Placed"
+  }
+]
