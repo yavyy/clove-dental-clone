@@ -5,6 +5,94 @@ window.onload = function () {
   }, 0);
 };
 
+const form = document.getElementById("consultationForm");
+const nameInput = document.getElementById("name");
+const mobileInput = document.getElementById("mobile");
+const captchaInput = document.getElementById("captchaInput");
+const captchaText = document.getElementById("captchaText").innerText;
+const terms = document.getElementById("terms");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const name = nameInput.value.trim();
+  const mobile = mobileInput.value.trim();
+  const captcha = captchaInput.value.trim();
+
+  // Name validation
+  if (name === "") {
+    alert("Please enter your name");
+    return;
+  }
+
+  // Mobile validation (10 digit)
+  const mobileRegex = /^[6-9]\d{9}$/;
+  if (!mobileRegex.test(mobile)) {
+    alert("Enter a valid 10 digit mobile number");
+    return;
+  }
+
+  // Captcha validation
+  if (captcha !== captchaText) {
+    alert("Captcha does not match");
+    return;
+  }
+
+  // Checkbox validation
+  if (!terms.checked) {
+    alert("Please accept terms and privacy policy");
+    return;
+  }
+
+  alert("Form submitted successfully!");
+  form.reset();
+});
+
+//Mobile Form Validations
+const mobileForm = document.getElementById("mobileForm");
+const mobileName = document.getElementById("mobileName");
+const mobileNumber = document.getElementById("mobileNumber");
+const mobileCaptchaInput = document.getElementById("mobileCaptchaInput");
+const mobileCaptchaText = document.getElementById("mobileCaptchaText").innerText;
+const mobileTerms = document.getElementById("mobileTerms");
+
+mobileForm.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const name = mobileName.value.trim();
+  const number = mobileNumber.value.trim();
+  const captcha = mobileCaptchaInput.value.trim();
+
+  // Name validation
+  if (name === "") {
+    alert("Please enter your name");
+    return;
+  }
+
+  // Mobile validation
+  const mobileRegex = /^[6-9]\d{9}$/;
+
+  if (!mobileRegex.test(number)) {
+    alert("Enter a valid 10 digit mobile number");
+    return;
+  }
+
+  // Captcha validation
+  if (captcha !== mobileCaptchaText) {
+    alert("Captcha does not match");
+    return;
+  }
+
+  // Checkbox validation
+  if (!mobileTerms.checked) {
+    alert("Please accept the terms and privacy policy");
+    return;
+  }
+
+  alert("Form submitted successfully!");
+  mobileForm.reset();
+});
+
 // Load Section Headings
 const getSectionHeadings = async () => {
   try {
@@ -151,8 +239,7 @@ const getPatientStories = async () => {
       section.insertAdjacentHTML(
         "beforeend",
         `<div class="patient-story">
-        <img src="${story.img}" class="${
-          story.name === "Nikita" ? "patient-image" : ""
+        <img src="${story.img}" class="${story.name === "Nikita" ? "patient-image" : ""
         }" alt="${story.name}">
         <div>
         <div>${story.name}</div>
@@ -217,10 +304,10 @@ const getReviews = async () => {
             <h4>${review.name}</h4>
             <div class="star-box">
               ${Array.from({ length: review.stars })
-                .map(
-                  () => `<img src="./assets/star.png" alt="Star Icon" />`
-                )
-                .join("")}
+          .map(
+            () => `<img src="./assets/star.png" alt="Star Icon" />`
+          )
+          .join("")}
             </div>
             <p>${review.review}</p>
             <div class="read-box">Read more ></div>

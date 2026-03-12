@@ -56,16 +56,16 @@
       </p>
 
       <div class="consultation-form">
-        <form>
-          <input type="text" placeholder="Name">
-          <input type="text" placeholder="Mobile Number">
+        <form id="consultationForm">
+          <input type="text" id="name" placeholder="Name">
+          <input type="tel" id="mobile" placeholder="Mobile Number" maxlength="10">
           <div class="captcha-box-big">
-            <input type="text" placeholder="Captcha">
-            <span class="captcha">1514</span>
+            <input type="text" id="captchaInput" placeholder="Captcha">
+            <span class="captcha" id="captchaText">1514</span>
           </div>
 
           <label>
-            <input type="checkbox">
+            <input type="checkbox" id="terms">
             I agree to CLOVE Dental’s Terms and Privacy Policy and consent to
             contact via phone, email, or SMS.
           </label>
@@ -82,24 +82,26 @@
   <nav></nav>
 
   <!-- MOBILE CTA SECTION -->
-  <form class="mobile-cta cta">
+  <form class="mobile-cta cta" id="mobileForm">
     <h4>Get Expert Dental Guidance in Delhi</h4>
-    <p class="sub-heading">
-      Book your free consultation today and take the first step towards
-      healthy, beautiful teeth.
-    </p>
-    <input type="text" placeholder="Name" />
-    <input type="text" placeholder="Mobile Number" />
+
+    <input type="text" id="mobileName" placeholder="Name" />
+    <input type="tel" id="mobileNumber" placeholder="Mobile Number" maxlength="10" />
+
     <div class="captcha-box">
-      <input type="text" class="captcha" placeholder="Captcha" />
-      <span>1514</span>
+      <input type="text" id="mobileCaptchaInput" placeholder="Captcha" />
+      <span id="mobileCaptchaText">1514</span>
     </div>
+
     <div class="confirmation-box">
-      <input type="checkbox" class="checkbox" />
-      <span>I agree to CLOVE Dental's Terms and Privacy Policy and consent to
-        contact via phone, email, or SMS.</span>
+      <input type="checkbox" id="mobileTerms" />
+      <span>
+        I agree to CLOVE Dental's Terms and Privacy Policy and consent to
+        contact via phone, email, or SMS.
+      </span>
     </div>
-    <button>Book a Free Consultation</button>
+
+    <button type="submit">Book a Free Consultation</button>
   </form>
 
   <!-- TYPES OF TREATMENTS -->
